@@ -35,6 +35,7 @@ You are building a list of event team members using React.js.
 #### Questions / problems / comments?
 Contact Josh - josh@lennd.com
 
+---
 
 ## How to get up and running...
 
