@@ -19,11 +19,19 @@ app.get('*', function(req, res) {
   res.sendFile(path.join(__dirname, 'index.html'));
 });
 
-app.listen(3003, function(err) {
+app.get('*', function(err, req, res, next) {
+  if (res.headersSent) {
+    return next(err);
+  }
+  res.status(500);
+  res.render('error', { error: err });
+});
+
+app.listen(5000, function(err) {
   if (err) {
     console.log(err);
     return;
   }
 
-  console.log('Listening at http://localhost:3000');
+  console.log('Listening at http://localhost:5000');
 });

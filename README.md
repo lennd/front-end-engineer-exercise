@@ -62,7 +62,7 @@ Run the development server:
 ```
 
 #### Step 3 - View in browser
-Open up your browser to http://localhost:3000/ and voila!
+Open up your browser to http://localhost:5000/ and voila!
 
 #### Notes
 - The static CSS files you need are in `public/css`.
