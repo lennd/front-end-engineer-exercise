@@ -4,6 +4,8 @@
 
 You are building a list of event team members using React.js.
 
+![alt text](https://raw.githubusercontent.com/lennd/front-end-developer-exercise/master/excercise-design.png "Exercise")
+
 #### Details
 - Use the JPG or Sketch file as your visual guide. If you'd like, you can download a trial of Sketch here: https://www.sketchapp.com/
 - You must consume this endpoint (http://jsonplaceholder.typicode.com/users) to get the users for the list. How you consume the endpoint is up to you.
