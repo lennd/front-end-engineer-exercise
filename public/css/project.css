@@ -1,0 +1,205 @@
+* {
+  box-sizing: border-box; }
+
+/* webkit specific styles */
+input[type="color"]::-webkit-color-swatch {
+  border: none; }
+
+input[type="color"]::-webkit-color-swatch-wrapper {
+  padding: 0; }
+
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  font-weight: inherit; }
+
+body {
+  line-height: 1; }
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+nav ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent; }
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none; }
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold; }
+
+del {
+  text-decoration: line-through; }
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0; }
+
+input, select {
+  vertical-align: middle; }
+
+input:focus {
+  outline: none; }
+
+ul, ol {
+  list-style-type: none; }
+
+body {
+  font-family: 'Proxima Nova';
+  padding: 45px 0px 0px; }
+
+.header {
+  display: -webkit-flex;
+  align-items: center;
+  box-shadow: 1px 1px 5px 3px rgba(22, 21, 24, 0.18);
+  flex-direction: row;
+  height: 45px;
+  min-height: 45px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #6A3AD8;
+  z-index: 11;
+}
+
+.tabs {
+  display: -webkit-flex;
+  flex-direction: column;
+  height: 130px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-image: linear-gradient(48deg, #9945EC 0%, rgba(115,49,227,0.90) 51%, #5120DB 100%);
+  margin-bottom: 44px;
+}
+
+.sidebar {
+  width: 30%;
+  margin-right: 65px;
+  float: left; }
+
+.permissionsWrapper {
+  margin-left: calc(30% + 65px);
+  width: calc(70% - 65px); }
+  .permissionsWrapper__title {
+    font-size: 27px;
+    font-weight: 500;
+    margin-bottom: 20px; }
+
+.all-toggles {
+  float: right; }
+  .all-toggles__toggle {
+    background-color: transparent;
+    font-family: 'Proxima Nova';
+    border: 0;
+    font-size: 16px;
+    color: #895953;
+    cursor: pointer; }
+    .all-toggles__toggle--selected {
+      color: #61be5b; }
+
+.permissions {
+  background-color: #fafafa;
+  border-left: 1px solid #e8e8e8;
+  border-right: 1px solid #e8e8e8;
+  overflow: hidden; }
+  .permissions--collapsed .permissions__body {
+    height: 0;
+    overflow: hidden; }
+  .permissions--collapsed .permissions__header {
+    color: #979797; }
+  .permissions:first-of-type {
+    border-top: 1px solid #e8e8e8;
+    border-radius: 6px 6px 0 0; }
+  .permissions:last-of-type {
+    border-bottom: 1px solid #e8e8e8;
+    border-radius: 0 0 6px 6px; }
+  .permissions__header {
+    background-color: #f2f2f2;
+    font-size: 20px;
+    font-weight: 500;
+    color: #373737;
+    padding: 16px 21px 21px;
+    border-top: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
+    line-height: 1; }
+  .permissions__toggle {
+    float: right; }
+
+.permission {
+  border-bottom: 1px solid #dedede;
+  margin: 0 29px;
+  padding: 12px 0 14px;
+  font-size: 14px; }
+  .permission--toggled .permission__copy {
+    color: #373737; }
+  .permission:first-of-type {
+    margin-top: 13px; }
+  .permission:last-child {
+    border-bottom: 0; }
+  .permission__copy {
+    color: #bababa; }
+  .permission__action-type {
+    font-weight: bold; }
+  .permission__toggle {
+    float: right; }
+/*# sourceMappingURL=my_project.css.map */
