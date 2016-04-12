@@ -19,14 +19,6 @@ app.get('*', function(req, res) {
   res.sendFile(path.join(__dirname, 'index.html'));
 });
 
-app.get('*', function(err, req, res, next) {
-  if (res.headersSent) {
-    return next(err);
-  }
-  res.status(500);
-  res.render('error', { error: err });
-});
-
 app.listen(5000, function(err) {
   if (err) {
     console.log(err);
