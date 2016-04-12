@@ -7,7 +7,7 @@ You are building a list of event team members using React.js.
 ![alt text](https://raw.githubusercontent.com/lennd/front-end-developer-exercise/master/excercise-design.png "Exercise")
 
 #### Details
-- Use the JPG or Sketch file as your visual guide. If you'd like, you can download a trial of Sketch here: https://www.sketchapp.com/
+- Use the JPG or Sketch file contained in this repository as your visual guide. If you'd like, you can download a trial of Sketch here: https://www.sketchapp.com/
 - You must consume this endpoint (http://jsonplaceholder.typicode.com/users) to get the users for the list. How you consume the endpoint is up to you.
 - You can use static CSS, setup a CSS precompiler + watching, or use inline styling
 - You should be able to filter the list by typing into the filter text input
@@ -31,7 +31,7 @@ You are building a list of event team members using React.js.
 - Send Josh (josh@lennd.com) an email with a link to your repository
 
 #### Notes
-- The design shows just a sampling of users. You can put all of the users that the endpoint returns.
+- The design shows just a sampling of users. You should display all of the users that the endpoint returns.
 - For the icons, use FontAwesome (https://fortawesome.github.io/Font-Awesome/icons/). The CSS has already been included in the project.
 
 #### Questions / problems / comments?
@@ -50,8 +50,8 @@ Contact Josh - josh@lennd.com
 In the directory where you'd like this repository to live, run the following commands:
 
 ```
-> $ git clone git@github.com:lennd/lennd-project-permissions.git
-> $ cd lennd-project-permissions
+> $ git clone git@github.com:lennd/front-end-developer-exercise.git
+> $ cd front-end-developer-exercise
 > $ npm install
 ```
 
