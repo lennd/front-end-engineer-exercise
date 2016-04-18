@@ -33,6 +33,13 @@ You are building a list of event team members using React.js.
 - The design shows just a sampling of users. You should display all of the users that the endpoint returns.
 - For the icons, use FontAwesome (https://fortawesome.github.io/Font-Awesome/icons/). The CSS has already been included in the project.
 
+#### Resources
+New to React.js? Check out these resources:
+- http://courses.reactjsprogram.com/courses/reactjsfundamentals
+- http://tylermcginnis.com/an-introduction-to-life-cycle-events-in-react-js/
+- http://tylermcginnis.com/building-user-interfaces-with-pure-functions-and-function-composition-in-react-js/
+- https://camjackson.net/post/9-things-every-reactjs-beginner-should-know
+
 #### Questions / problems / comments?
 Contact Josh - josh@lennd.com
 
