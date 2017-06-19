@@ -1,5 +1,5 @@
 {
-  "name": "lennd-front-end-developer-exercise",
+  "name": "lennd-front-end-engineer-exercise",
   "version": "1.0.0",
   "scripts": {
     "clean": "rimraf dist",
