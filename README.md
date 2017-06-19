@@ -13,17 +13,17 @@ You are building a list of event team members using React.js.
 - You should be able to filter the list by typing into the filter text input
 - Clicking on a row should expand it to reveal the user's address -- only one row should be able to be expanded at a time
 - You should demonstrate knowledge on how to construct and re-use components
+- Use ES6/7
+- Add a "loading" indicator for when the users are being fetched
 
 #### Bonus points
-- Use ES6
 - Write tests for your components using a testing library of your choice
 - Demonstrate knowledge of pure functions / components
 
-#### For fun / if you want to get crazy
+#### For fun / if you want to get crazy (encouraged)
 - Find a way to incorporate Redux (We use it heavily)
 - Add animation to the expanding rows
 - Output some location-relative information using the latitude / longitude returned by the API endpoint for each user
-- Add a "loading" indicator for when the users are being fetched
 - Use a Gravatar for displaying a user's avatar based on the user's email
 
 #### To submit
