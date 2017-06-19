@@ -1,10 +1,10 @@
-# Lennd - Front-End Developer Exercise
+# Lennd - Front-End Engineer Exercise
 
 ## Instructions
 
 You are building a list of event team members using React.js.
 
-![alt text](https://raw.githubusercontent.com/lennd/front-end-developer-exercise/master/excercise-design.png "Exercise")
+![alt text](https://raw.githubusercontent.com/lennd/front-end-engineer-exercise/master/excercise-design.png "Exercise")
 
 #### Details
 - Use the JPG or Sketch file contained in this repository as your visual guide. If you'd like, you can download a trial of Sketch here: https://www.sketchapp.com/
@@ -56,8 +56,8 @@ Contact Josh - josh@lennd.com
 In the directory where you'd like this repository to live, run the following commands:
 
 ```
-> $ git clone git@github.com:lennd/front-end-developer-exercise.git
-> $ cd front-end-developer-exercise
+> $ git clone git@github.com:lennd/front-end-engineer-exercise.git
+> $ cd front-end-engineer-exercise
 > $ npm install
 ```
 
